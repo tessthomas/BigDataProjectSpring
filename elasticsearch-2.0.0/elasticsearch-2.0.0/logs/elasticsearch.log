@@ -1,0 +1,1506 @@
+[2017-05-04 01:52:34,157][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@17aedddc] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:52:34,157][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@17aedddc]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:52:34,157][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@17aedddc] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:52:34,157][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@17aedddc] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:52:34,157][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@17aedddc] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:52:34,182][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:52:34,188][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 01:53:58,967][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@245be956] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:53:58,969][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@245be956]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:53:58,971][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:53:58,967][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@245be956] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:53:58,967][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@245be956] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:53:58,967][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@245be956] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:53:58,972][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 01:59:20,586][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c4673af] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:59:20,587][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c4673af]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:59:20,587][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c4673af] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:59:20,586][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c4673af] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:59:20,586][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c4673af] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:59:20,593][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 01:59:20,606][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 02:13:51,213][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7243f7a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:13:51,218][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7243f7a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:13:51,218][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7243f7a7]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:13:51,217][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7243f7a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:13:51,216][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7243f7a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:13:51,227][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:13:51,239][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 02:19:25,644][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32cc67bf] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:19:25,646][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32cc67bf]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:19:25,646][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32cc67bf] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:19:25,645][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32cc67bf] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:19:25,644][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32cc67bf] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:19:25,655][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 02:19:25,676][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 17:11:26,838][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3dd52e3f] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:11:26,838][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3dd52e3f] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:11:26,838][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3dd52e3f]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:11:26,849][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:11:26,838][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3dd52e3f] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:11:26,838][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3dd52e3f] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:11:26,851][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 17:14:05,600][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@15c5faf5] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:14:05,601][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@15c5faf5]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:14:05,603][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:14:05,600][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@15c5faf5] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:14:05,600][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@15c5faf5] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:14:05,600][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@15c5faf5] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:14:05,604][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 17:24:26,622][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1910a2a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:24:26,623][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1910a2a7]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:24:26,623][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1910a2a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:24:26,623][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1910a2a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:24:26,622][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1910a2a7] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:24:26,626][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:24:26,632][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 17:27:51,059][DEBUG][action.search.type       ] [Brian Braddock] [shopping][1], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Fley_vj-QQG1fPptlRGBlw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@78a35e05] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:27:51,060][DEBUG][action.search.type       ] [Brian Braddock] [shopping][3], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=1ET7SDa3Tni8i83J8T_9AA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@78a35e05] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:27:51,060][DEBUG][action.search.type       ] [Brian Braddock] [shopping][2], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Bg84xdwnTmSVpOaVqZ9Y9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@78a35e05]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:27:51,060][DEBUG][action.search.type       ] [Brian Braddock] [shopping][0], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=Kfwu1cQHSGmGKE10SW5Yfw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@78a35e05] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:27:51,059][DEBUG][action.search.type       ] [Brian Braddock] [shopping][4], node[ovmo8UcvQ3C1FRahakTaew], [P], v[2], s[STARTED], a[id=5HDiEIBbRB-HbyzrzYukkQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@78a35e05] lastShard [true]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:27:51,069][DEBUG][action.search.type       ] [Brian Braddock] All shards failed for phase: [query]
+RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+Caused by: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:860)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	... 10 more
+[2017-05-04 17:27:51,082][INFO ][rest.suppressed          ] /shopping/products/_search Params: {size=9, index=shopping, from=0, type=products}
+Failed to execute phase [query], all shards failed; shardFailures {[ovmo8UcvQ3C1FRahakTaew][shopping][0]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][1]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][2]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][3]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }{[ovmo8UcvQ3C1FRahakTaew][shopping][4]: RemoteTransportException[[Brian Braddock][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{"query":{"match":{}}}]]; nested: QueryParsingException[[match] query malformed, no field]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [shopping] QueryParsingException[[match] query malformed, no field]
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:68)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:299)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:197)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:843)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:663)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:632)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:374)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2017-05-04 23:41:15,240][INFO ][node                     ] [S'byll] version[2.0.0], pid[4740], build[de54438/2015-10-22T08:09:48Z]
+[2017-05-04 23:41:15,251][INFO ][node                     ] [S'byll] initializing ...
+[2017-05-04 23:41:15,432][INFO ][plugins                  ] [S'byll] loaded [], sites [head]
+[2017-05-04 23:41:16,511][INFO ][env                      ] [S'byll] using [1] data paths, mounts [[Windows (C:)]], net usable_space [796.2gb], net total_space [907.2gb], spins? [unknown], types [NTFS]
+[2017-05-04 23:41:25,880][INFO ][node                     ] [S'byll] initialized
+[2017-05-04 23:41:25,883][INFO ][node                     ] [S'byll] starting ...
+[2017-05-04 23:41:26,776][INFO ][transport                ] [S'byll] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-05-04 23:41:26,809][INFO ][discovery                ] [S'byll] elasticsearch/xDLCK4HPRZ-KVodG2YH2gg
+[2017-05-04 23:41:30,918][INFO ][cluster.service          ] [S'byll] new_master {S'byll}{xDLCK4HPRZ-KVodG2YH2gg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-05-04 23:41:31,453][INFO ][gateway                  ] [S'byll] recovered [1] indices into cluster_state
+[2017-05-04 23:41:31,668][INFO ][http                     ] [S'byll] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-05-04 23:41:31,668][INFO ][node                     ] [S'byll] started
